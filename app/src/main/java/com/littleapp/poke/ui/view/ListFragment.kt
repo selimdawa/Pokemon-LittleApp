@@ -7,13 +7,15 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import com.littleapp.poke.Unit.DATA
 import com.littleapp.poke.databinding.FragmentListPokeBinding
 import com.littleapp.poke.domain.SelectedListener
 import com.littleapp.poke.ui.view.adapters.ItemAdapter
 import com.littleapp.poke.ui.viewmodel.ApiStatus
 import com.littleapp.poke.ui.viewmodel.PokeViewModel
+import com.littleapp.poke.utils.DATA
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class ListFragment : Fragment() {
 
     private var _binding: FragmentListPokeBinding? = null

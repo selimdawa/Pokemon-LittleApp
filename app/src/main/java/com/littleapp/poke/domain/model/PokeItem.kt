@@ -1,6 +1,6 @@
 package com.littleapp.poke.domain.model
 
-import com.littleapp.poke.Unit.DATA.RAW_URL_POKE
+import com.littleapp.poke.utils.DATA.RAW_URL_POKE
 import com.littleapp.poke.data.model.PokeModel
 import java.util.*
 

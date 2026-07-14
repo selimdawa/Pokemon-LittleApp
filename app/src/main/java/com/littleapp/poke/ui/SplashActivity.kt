@@ -4,11 +4,13 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import androidx.appcompat.app.AppCompatActivity
-import com.littleapp.poke.Unit.CLASS
-import com.littleapp.poke.Unit.THEME
-import com.littleapp.poke.Unit.VOID
 import com.littleapp.poke.databinding.ActivitySplashBinding
+import com.littleapp.poke.utils.CLASS
+import com.littleapp.poke.utils.THEME
+import com.littleapp.poke.utils.VOID
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class SplashActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivitySplashBinding

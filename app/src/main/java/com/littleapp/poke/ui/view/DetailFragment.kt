@@ -7,12 +7,14 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import com.littleapp.poke.R
-import com.littleapp.poke.Unit.DATA
+import com.littleapp.poke.utils.DATA
 import com.littleapp.poke.databinding.FragmentDetailPokeBinding
 import com.littleapp.poke.ui.viewmodel.ApiStatusDetail
 import com.littleapp.poke.ui.viewmodel.DetailsViewModel
 import com.squareup.picasso.Picasso
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class DetailFragment : Fragment() {
 
     private var _binding: FragmentDetailPokeBinding? = null

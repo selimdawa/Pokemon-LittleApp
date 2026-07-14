@@ -3,10 +3,12 @@ package com.littleapp.poke.ui.view
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.littleapp.poke.R
-import com.littleapp.poke.Unit.THEME
 import com.littleapp.poke.databinding.ActivityMainBinding
 import com.littleapp.poke.domain.SelectedListener
+import com.littleapp.poke.utils.THEME
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity(), SelectedListener {
 
     private lateinit var binding: ActivityMainBinding

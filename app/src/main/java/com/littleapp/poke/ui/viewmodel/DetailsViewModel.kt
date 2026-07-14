@@ -7,12 +7,17 @@ import androidx.lifecycle.viewModelScope
 import com.littleapp.poke.domain.GetDetails
 import com.littleapp.poke.domain.model.PokeItemDetails
 import com.littleapp.poke.ui.view.DetailFragment
+import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import timber.log.Timber
+import javax.inject.Inject
 
 enum class ApiStatusDetail { LOADING, ERROR, DONE }
 
-class DetailsViewModel() : ViewModel() {
+@HiltViewModel
+class DetailsViewModel @Inject constructor(
+    private val getDetails: GetDetails
+) : ViewModel() {
 
     private var _pokeDetails = MutableLiveData<PokeItemDetails>()
     val pokeDetails: LiveData<PokeItemDetails> get() = _pokeDetails
@@ -29,7 +34,7 @@ class DetailsViewModel() : ViewModel() {
         _status.value = ApiStatusDetail.LOADING
         viewModelScope.launch {
             try {
-                _pokeDetails.value = GetDetails().fromPokemon(id)
+                _pokeDetails.value = getDetails.fromPokemon(id)
                 _status.value = ApiStatusDetail.DONE
             } catch (e: Exception) {
                 _status.value = ApiStatusDetail.ERROR

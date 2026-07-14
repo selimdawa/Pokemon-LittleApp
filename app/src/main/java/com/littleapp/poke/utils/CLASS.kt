@@ -1,4 +1,4 @@
-package com.littleapp.poke.Unit
+package com.littleapp.poke.utils
 
 import com.littleapp.poke.ui.SplashActivity
 import com.littleapp.poke.ui.view.MainActivity
