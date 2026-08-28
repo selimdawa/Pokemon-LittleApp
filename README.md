@@ -1,9 +1,10 @@
-<h1 align="center">Pokémon - Little App</h1>
+﻿<h1 align="center">PokÃ©mon - Little App</h1>
 
 <p align="center">
  <a><img alt="Min SDK" src="https://img.shields.io/badge/Min SDK-24-020290?logo=android&logoColor=white"/></a>
  <a><img alt="Target SDK" src="https://img.shields.io/badge/Target SDK-37-0EB265?logo=android&logoColor=0EB265"/></a>
  <a href="https://kotlinlang.org"><img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-2.4.0-blue?logo=kotlin&logoColor=white"/></a>
+  <a href="https://opensource.org/licenses/MIT"><img alt="License" src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square"/></a>
 </p>
 
 ## Day Mode
@@ -17,3 +18,10 @@ One | Two | Three
 ![](https://blogger.googleusercontent.com/img/a/AVvXsEj6fdqhqzPy1q6Bt4BHpI2vQgQc0h50SC6lf5K14aW8i9vLSxFkJY7ejhhYAsT1zEYmvEW-X6LSGX2YA4Q1UNBLvNo2Fz_AT2HToSwuuiSauovU3FTyeipAmRi9xa_SX7EImmYqV1WOc9BmQatJ4Zl12QoPXHrz58_77UfS_J8Lvz9s4q_ySv5uAzmLxA) | ![](https://blogger.googleusercontent.com/img/a/AVvXsEjDcSDY_SrtTHKsfbc2TiR9BtJECsLOCMXzjdm5HCMNxsp7U3mYZ6dBFw_ibuDs6aNpFzTS-WqeRNrmdF4mTeeYJmjIkbJkqs5be-JZ7bYQglas4MFFawv4LSeeRyCYCnmmeKM6_bmnzJ__VXeOFstZuplF0SAfl1Fpt9PU7seVV7JPOJLKnMLx_Y65hA) | ![](https://blogger.googleusercontent.com/img/a/AVvXsEgoPln3hn64tTjR_Lm6NJKOk12ghWXI-pKwl_bN1jxenZAjuaOJJluEgtviEV-Bg0AoybZouBMkOGvd9kgc6krhb56wQlFcy-trZhE3e2Bwbm5kBVnZlR6tikZt1v5qIbWYUxRXykhM4r__Pf5T32fbW9WMleqFisF_UO-Pgr2ZnYlDHtckeRVhBseR0g) | 
 
 - [Simple Advanced Apps - Kotlin](https://github.com/selimdawa/SimpleAdvancedAppsKotlin/)
+
+
+---
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
