@@ -1,5 +1,5 @@
 [versions]
-agp = "9.4.0"
+agp = "9.4.1"
 fragmentKtx = "1.9.0"
 coreKtx = "1.19.0"
 junit = "4.13.2"
@@ -19,7 +19,7 @@ timber = "5.0.1"
 shimmer = "0.5.0"
 room = "2.8.4"
 navigation = "2.9.8"
-ksp = "2.3.11"
+ksp = "2.3.12"
 hilt = "2.60.1"
 hiltNavigation = "1.4.0"
 
